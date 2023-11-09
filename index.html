@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fish Counter</title>
+  </head>
+  <body>
+    <main class="flex-container">
+      <section class="title-container">
+        <h1>Fish Counter</h1>
+        <h2>The Fish Tank Census App</h2>
+        <p>
+          Count how many fish owned by you and your friends to get an estiamte
+          of the fish tank population in your town or city.
+        </p>
+      </section>
+      <section class="counter-container-current">
+        <h3 id="counter-title"># of Fish</h3>
+        <h3 id="counter"></h3>
+      </section>
+      <section class="button-container">
+        <button id="increment" onclick="increment()">Increment</button>
+        <button id="save" onclick="save()">Save</button>
+      </section>
+      <section id="counter-container-total">
+        <h3 id="previous-counts">Count History:&nbsp</h3>
+        <h3>Total: <span id="total">0</span></h3>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>

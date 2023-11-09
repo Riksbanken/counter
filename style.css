@@ -1,0 +1,58 @@
+html {
+  background-image: url(./images/kazuend-AFp6M-Cj0Kk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  min-height: 100vh;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playpen Sans", cursive;
+}
+
+.flex-container {
+  border: 5px solid white;
+  width: 60%;
+  border-radius: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 20px white;
+}
+
+.title-container > h1 {
+  border-bottom: 5px solid orangered;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  width: 30%;
+  padding: 5px 20px;
+  border: none;
+  font-family: "Playpen Sans", cursive;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+#increment {
+  background-color: orangered;
+}
+
+#save {
+  background-color: blue;
+  color: white;
+}
